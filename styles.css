@@ -4,9 +4,8 @@
   padding: 0;
 }
 body {
-  background-color: rgb(247, 240, 240);
+  background-color: white;
   width: 100vw;
-  height: 100vh;
   font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -17,7 +16,6 @@ body {
   height: 23vw;
   background-color: white;
   margin: auto;
-  border-radius: 20px 0px 0px 20px;
   margin-top: 10rem;
 }
 #container1 {
@@ -214,7 +212,6 @@ button:hover {
 @media (max-width: 474px) {
   #container {
     max-width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,29 +219,32 @@ button:hover {
   }
   #container1 {
     border-radius: 0 0 30px 30px;
-    width: 70%;
+    width: 100%;
   }
   #container2 {
-    width: 70%;
+    width: 100%;
   }
   #sum {
     font-size: 0.9rem;
     margin-block: 1rem;
   }
   #circle {
-    width: 40%;
+    width: 30%;
     padding: 1.5rem;
     margin-bottom: 0.5rem;
   }
   #description {
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 1rem;
+    text-align: center;
+    margin-inline: 2rem;
   }
   .img_scores,
   .img_scores_1,
   .img_scores_2,
   .img_scores_3 {
     height: 11vw;
+    margin-bottom: 0.7rem;
   }
   img {
     width: 20%;
@@ -255,7 +255,7 @@ button:hover {
   }
   .right {
     align-items: center;
-    font-size: 13px;
+    font-size: 14px;
   }
   button {
     height: 11vw;
@@ -263,9 +263,9 @@ button:hover {
     margin-top: 1rem;
   }
   #result {
-    font-size: 13px;
+    font-size: 16px;
   }
   #great {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
